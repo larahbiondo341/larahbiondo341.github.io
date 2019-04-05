@@ -90,7 +90,6 @@ main {
   font-family: 'Quicksand', sans-serif;
 }
 
-
 .grid1 {
   background-color: #cc9966;
   display: grid;
@@ -134,7 +133,6 @@ main {
   grid-area: mun;
   font-family: 'Quicksand', sans-serif;
 }
-
 
 .grid2 {
   background-color: #ecd9c6;
