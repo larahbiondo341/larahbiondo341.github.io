@@ -36,7 +36,7 @@ nav a {
   display: inline-block;
   padding: 10px;
   text-decoration: none;
-  color: #261a0d;
+  color: #4d2600;
 }
 
 a:hover {
@@ -50,7 +50,7 @@ body a {
 }
 
 a:visited {
-  color: #4d2600;
+  color: #130d07;
 }
 
 header {
@@ -68,7 +68,7 @@ main {
 #edu {
   grid-area: edu;
   font-family: 'Amatic SC', cursive;
-  font-size: 25px;
+  font-size: 30px;
   color: #4d3319;
   font-style: extrabold;
 }
@@ -90,7 +90,7 @@ main {
   grid-gap: 20px;
   padding: 20px;
   grid-template-columns: 2fr 2fr;
-  grid-template-rows: 20px 180px;
+  grid-template-rows: 40px 180px;
   margin-bottom: 20px;
 
   grid-template-areas:
