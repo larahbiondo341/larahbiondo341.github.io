@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Poiret+One|Quicksand');
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+}
+
+h1 {
+  font-family: 'Amatic SC', cursive;
+  color: #4d3319;
+  text-align: center;
+  margin-bottom: 35px;
+  font-size: 50px;
+}
+
+nav {
+  background-color: #86592d;
+}
+
+nav ul {
+  list-style-type: none;
+  padding-left: none;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 80px;
+  font-size: 20px
+}
+
+nav a {
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  color: #261a0d;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #c78e52;
+}
+
+body a {
+  text-decoration: none;
+  color: #4d3319;
+}
+
+a:visited {
+  color: #4d2600;
+}
+
+header {
+  background-image: url("../images/pattern.jpg");
+}
+
+main {
+  width: 950px;
+  border: 3px dotted #996633;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+}
+
+#edu {
+  grid-area: edu;
+  font-family: 'Amatic SC', cursive;
+  font-size: 25px;
+  color: #4d3319;
+  font-style: extrabold;
+}
+
+#uni {
+  grid-area: uni;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#school {
+  grid-area: school;
+  font-family: 'Quicksand', sans-serif;
+}
+
+
+.grid1 {
+  background-color: #cc9966;
+  display: grid;
+  grid-gap: 20px;
+  padding: 20px;
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: 20px 180px;
+  margin-bottom: 20px;
+
+  grid-template-areas:
+  "edu  ."
+  "uni   school";
+}
+
+#exp {
+  grid-area: exp;
+  font-family: 'Amatic SC', cursive;
+  font-size: 25px;
+  color: #4d3319;
+  font-style: extrabold;
+  background-color: brown;
+}
+
+#intern {
+  grid-area: intern;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#upenn {
+  grid-area: upenn;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#class {
+  grid-area: class;
+  font-family: 'Quicksand', sans-serif;
+
+}
+
+#mun {
+  grid-area: mun;
+  font-family: 'Quicksand', sans-serif;
+}
+
+
+.grid2 {
+  background-color: #ecd9c6;
+  padding: 20px;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: 30px 250px 280px;
+  margin-bottom: 20px;
+
+  grid-template-areas:
+  "exp  ."
+  "intern   upenn"
+  "class    mun";
+}
+
+ #skills {
+  font-family: 'Amatic SC', cursive;
+  font-size: 25px;
+  color: #4d3319;
+  font-style: extrabold;
+}
+
+.pink-bg {
+  background-color: #ecc6d9;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+#cont {
+  grid-area:cont;
+ font-family: 'Amatic SC', cursive;
+ font-size: 25px;
+ color: #4d3319;
+ font-style: extrabold;
+}
+
+#tel {
+  grid-area: tel;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#email {
+  grid-area: email;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.grid4 {
+  background-color: #f9ecf2;
+  display: grid;
+  grid-gap: 20px;
+  padding: 20px;
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: 20px 130px;
+
+  grid-template-areas:
+  "cont  ."
+  "tel   email";
+}
+
+.font {
+  font-family: 'Quicksand', sans-serif;
+  margin-bottom: 50px;
+}

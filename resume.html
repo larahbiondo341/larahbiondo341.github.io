@@ -3,18 +3,18 @@
   <head>
 
     <meta charset="utf-8">
+
+    <link rel="stylesheet" href="css/style.css">
     <title>Larah's Resume</title>
 
   </head>
 
   <body>
     <header>
-      <h1>Larah Garcez Biondo</h1>
-
-      <img src="grad2015.jpg" alt="Larah's graduation photo.">
+      <img class="center" src="images/grad2015.jpg" alt="Larah's graduation photo.">
 
       <nav>
-        <ul>
+        <ul class="body-txt">
           <li><a href="#edu">Education</a></li>
           <li><a href="#exp">Experience</a></li>
           <li><a href="#skills">Skills</a></li>
@@ -23,28 +23,30 @@
       </nav>
     </header>
 
-    <main>
-      <section>
+    <main id="wrapper">
+          <h1 class="brown">Larah Garcez Biondo</h1>
+
+      <section class="grid1">
         <h2 id="edu">Education</h2>
 
-          <article>
+          <article id="uni" class="body-txt">
             <h3>Bachelors degree</h3>
               <h4><a href="https://www.welcome.miami.edu">University of Miami</a>, Miami, FL</h4>
-                <p>Fall 2015 – May 2021</p>
+                <p>May 2021</p>
                 <p>School of Architecture, Major in Architecture</p>
           </article>
 
-          <article>
+          <article id="school">
             <h3>High School</h3>
               <h4><a href="https://www.olmrio.com">Our Lady of Mercy School</a>, Rio de Janeiro, Brazil</h4>
-                <p>February 2000 - June 2015</p>
+                <p>June 2015</p>
                 <p>Bilingual School (Portuguese + English) + Spanish classes taken</p>
           </article>
       </section>
 
-      <section>
+      <section class="grid2">
         <h2 id="exp">Experience</h2>
-          <article>
+          <article id="intern">
             <h3>Summer Internship</h3>
               <h4>MPA Arquitetura, Rio de Janeiro, Brazil</h4>
                 <p>May – July 2018</p>
@@ -57,7 +59,7 @@
                 </ul>
           </article>
 
-          <article>
+          <article id="upenn">
             <h3>University of Pennsylvania Summer Program</h3>
               <h4>UPenn, Pennsylvania, PA</h4>
                 <p>June 2014</p>
@@ -67,7 +69,7 @@
                 </ul>
           </article>
 
-          <article>
+          <article id="class">
             <h3>Class Committee</h3>
               <h4>Our Lady of Mercy School, Rio de Janeiro, Brazil</h4>
                 <p>August 2014 – June 2015</p>
@@ -79,7 +81,7 @@
                 </ul>
           </article>
 
-          <article>
+          <article id="mun">
             <h3>Modeled United Nations</h3>
               <h4>New York NHSMUN, NY</h4>
                 <p>2012, 2013, 2014, 2015</p>
@@ -91,9 +93,9 @@
           </article>
       </section>
 
-      <section>
+      <section class="pink-bg">
         <h2 id="skills">Skills</h2>
-        <ul>
+        <ul class="font">
           <li>Proficient with entire Microsoft Suite, AutoCAD, Sketchup, and Google Apps.</li>
           <li>Communication, organization and writing skills.</li>
           <li>Languages: Portuguese, English, Spanish.</li>
@@ -101,17 +103,21 @@
         </ul>
       </section>
 
-      <section>
+      <section class="grid4">
         <h2 id="cont">Contact Information:</h2>
 
-        <h3>Telephones:</h3>
-        <ul>
-          <li>+1(786)830–2856</li>
-          <li>+55(21)98604-5162</li>
-        </ul>
+        <article id="tel">
+          <h3>Telephones:</h3>
+          <ul>
+            <li>+1(786)830–2856</li>
+            <li>+55(21)98604-5162</li>
+          </ul>
+        </article>
 
-        <h3>Email:</h3>
-        <p>lgb53@miami.edu</p>
+        <article id="email">
+          <h3>Email:</h3>
+          <p>lgb53@miami.edu</p>
+        </article>
       </section>
     </main>
 
