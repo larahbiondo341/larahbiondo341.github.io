@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Parisienne|Poiret+One|Quicksand');
+
+.light-bg {background-color: #FFFAD2}
+.medium-bg {background-color: #F1948A}
+.dark-bg {background-color: #6E2C00}
+
+.image-bg {
+  background-image: url("../images/white-wood.jpg");
+  padding-top: 20px;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px;
+}
+
+.profileimg{
+  margin-left: 40px;
+  border: 3px solid #72400B;
+  margin-bottom: 20px;
+}
+
+.intro-txt {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  color: #351C02;
+  text-align: justify;
+}
+
+.body-txt {
+  font-family: 'Quicksand', sans-serif;
+  color: #351C02;
+  text-align: justify;
+  padding: 5px 20px;
+}
+
+.body-txt {
+  font-family: 'Quicksand', sans-serif;
+  color: #351C02;
+  text-align: justify;
+}
+
+.caps {
+  font-family: 'Quicksand', sans-serif;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  color: #351C02;
+  font-style: italic;
+  text-align: center;
+}
+
+.captions {
+  font-family: 'Quicksand', sans-serif;
+  color: #351C02;
+  text-align: center;
+}
+
+ .titles {
+  font-family: 'Poiret One', cursive;
+  color: #72400B;
+  padding-left: 20px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.right {
+  display: block;
+  text-align: right;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.right2 {
+  display: block;
+  text-align: right;
+  color: #72400B;
+  font-size: 27px;
+  padding-right: 60px;
+  margin-bottom: 20px;
+  font-family: 'Parisienne', cursive;
+}
+
+nav {
+  background-color: #F1948A;
+}
+
+nav a {
+  text-decoration: none;
+  color: #1a0d00;
+  margin-top: 25px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #c79b6b;
+}
+
+body a {
+  text-decoration: none;
+  color: #4d3319;
+}
+
+body a:hover {
+  text-decoration: underline;
+  color: #330000;
+}
+
+a:visited {
+  color: #6E2C00;
+}
+
+.clear { clear: both; }

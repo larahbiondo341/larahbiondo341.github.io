@@ -1,0 +1,426 @@
+nav li {
+text-align: center;
+font-size: 50px;
+display: inline;
+font-size: 20px;
+padding: 25px;
+}
+
+nav ul {
+text-align: right;
+width: 100%;
+max-width: 1150px;
+list-style-type: none;
+margin-right: auto;
+font-family: 'Quicksand', sans-serif;
+}
+
+
+main {
+  width: 960px;
+  border: 2px dotted #6E2C00;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px
+}
+
+.leftcol {
+  width: 400px;
+  border: none;
+  min-height: 200px;
+  display: block;
+  float: left;
+  padding: 10px;
+}
+
+.leftcol2 {
+  width: 500px;
+  border: none;
+  min-height: 200px;
+  display: block;
+  float: left;
+  padding-left: 30px;
+  font-family: 'Quicksand', sans-serif;
+  color: #351C02;
+  text-align: justify;
+}
+
+.rightcol {
+  max-width: 450px;
+  border: none;
+  min-height: 200px;
+  display: block;
+  float: right;
+  padding-right: 50px
+}
+
+.rightcol2 {
+  max-width: 450px;
+  border: none;
+  min-height: 200px;
+  display: block;
+  float: right;
+  padding-right: 100px
+}
+
+#edu {
+  grid-area: edu;
+  font-family: 'Poiret One', cursive;
+  font-size: 31px;
+  color: #4d3319;
+  font-style: extrabold;
+}
+
+#uni {
+  grid-area: uni;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#school {
+  grid-area: school;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.grid1 {
+  background-color: #cc9966;
+  display: grid;
+  grid-gap: 20px;
+  padding: 20px;
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: 45px 180px;
+  margin-bottom: 20px;
+
+  grid-template-areas:
+  "edu  ."
+  "uni   school";
+}
+
+#exp {
+  grid-area: exp;
+  font-family: 'Poiret One', cursive;
+  font-size: 31px;
+  color: #4d3319;
+  font-style: extrabold;
+}
+
+#intern {
+  grid-area: intern;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#upenn {
+  grid-area: upenn;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#class {
+  grid-area: class;
+  font-family: 'Quicksand', sans-serif;
+
+}
+
+#mun {
+  grid-area: mun;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.grid2 {
+  background-color: #ecd9c6;
+  padding: 20px;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: 45px 250px 280px;
+  margin-bottom: 20px;
+
+  grid-template-areas:
+  "exp  ."
+  "intern   upenn"
+  "class    mun";
+}
+
+ #skills {
+  font-family: 'Poiret One', cursive;
+  font-size: 30px;
+  color: #4d3319;
+  font-style: extrabold;
+}
+
+.pink-bg {
+  background-color: #F2D7D5;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+#awards {
+ grid-area: awards;
+ font-family: 'Poiret One', cursive;
+ font-size: 30px;
+ color: #4d3319;
+ font-style: extrabold;
+}
+
+#nscs {
+  grid-area: nscs;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#grades {
+  grid-area: grades;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.grid4 {
+  background-color: #E6B0AA;
+  display: grid;
+  grid-gap: 32px;
+  padding: 25px;
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: 40px 130px;
+  padding-bottom: 25px;
+
+  grid-template-areas:
+  "awards  ."
+  "nscs   grades";
+}
+
+#cont {
+ grid-area:cont;
+ font-family: 'Poiret One', cursive;
+ font-size: 28px;
+ color: #4d3319;
+ font-style: extrabold;
+}
+
+#tel {
+  grid-area: tel;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#email {
+  grid-area: email;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.grid5 {
+  background-color: #ecd9c6;
+  display: grid;
+  grid-gap: 32px;
+  padding: 25px;
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: 45px 130px;
+
+  grid-template-areas:
+  "cont  ."
+  "tel   email";
+}
+
+#bus {
+  grid-area: bus;
+}
+
+#aquatic {
+  grid-area: aquatic;
+}
+
+#masp {
+  grid-area: masp;
+}
+
+#puc {
+  grid-area: puc;
+}
+
+.grid7 {
+  display: grid;
+  text-align: center;
+  grid-gap: 32px;
+  padding: 25px;
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: 300px 300px;
+  padding-bottom: 10px;
+  padding-top: 60px;
+
+  grid-template-areas:
+  "bus  aquatic"
+  "masp  puc";
+}
+
+#puc1 {
+  grid-area: puc1;
+}
+
+#puc2 {
+  grid-area: puc2;
+}
+
+#puc3 {
+  grid-area: puc3;
+}
+
+.grid8 {
+  display: grid;
+  padding-left: 135px;
+  grid-template-columns: 412px 200px;
+  grid-template-rows: 225px 220px;
+  text-align: center;
+  margin-bottom: 15px;
+
+  grid-template-areas:
+  "puc1  puc2"
+  "puc1  puc3";
+}
+
+#masp5 {
+  grid-area: masp5;
+}
+
+#masp2 {
+  grid-area: masp2;
+}
+
+#masp4 {
+  grid-area: masp4;
+}
+
+#masp3 {
+  grid-area: masp3;
+}
+
+.grid9 {
+  display: grid;
+  padding-left: 135px;
+  grid-template-columns: 350px 350px;
+  grid-template-rows: 235px 235px;
+  text-align: center;
+  margin-bottom: 15px;
+
+  grid-template-areas:
+  "masp5  masp2"
+  "masp4  masp3";
+}
+
+#draw {
+  grid-area: draw;
+}
+
+#sec1 {
+  grid-area: sec1;
+}
+
+#sec2 {
+  grid-area: sec2;
+}
+
+.grid10 {
+  display: grid;
+  padding-left: 75px;
+  grid-template-columns: 450px 200px;
+  grid-template-rows: 135px 155px;
+  text-align: center;
+  margin-bottom: 15px;
+
+  grid-template-areas:
+  "draw  sec1"
+  "draw  sec2";
+}
+
+#aqua-sheet1 {
+  grid-area: aqua-sheet1;
+}
+
+#aqua-sheet2 {
+  grid-area: aqua-sheet2;
+}
+
+.grid11 {
+  display: grid;
+  padding-left: 35px;
+  grid-template-columns: 450px 400px;
+  grid-template-rows: 450px;
+  /* grid-gap: 20px; */
+  text-align: center;
+  margin-bottom: 15px;
+
+  grid-template-areas:
+  "aqua-sheet1  aqua-sheet2";
+}
+
+#aqua2 {
+  grid-area: aqua2;
+}
+
+#aqua3 {
+  grid-area: aqua3;
+}
+
+#aqua4 {
+  grid-area: aqua4;
+}
+
+#aqua5 {
+  grid-area: aqua5;
+}
+
+.grid12 {
+  display: grid;
+  padding-left: 175px;
+  grid-template-columns: 360px 305px;
+  grid-template-rows: 330px 130px;
+  text-align: center;
+  margin-bottom: 15px;
+
+  grid-template-areas:
+  "aqua6  aqua4"
+  "aqua6  aqua5";
+}
+
+#bus5 {
+  grid-area: bus5;
+}
+
+#bus2 {
+  grid-area: bus2;
+}
+
+#bus3 {
+  grid-area: bus3;
+}
+
+.grid13 {
+  display: grid;
+  padding-left: 175px;
+  grid-template-columns: 345px 305px;
+  grid-template-rows: 214px 230px;
+  text-align: center;
+  margin-bottom: 15px;
+
+  grid-template-areas:
+  "bus5  bus2"
+  "bus5  bus3";
+}
+
+#draw1 {
+  grid-area: draw1;
+}
+
+#draw2 {
+  grid-area: draw2;
+}
+
+.grid14 {
+  display: grid;
+  padding-left: 120px;
+  grid-template-columns: 400px 400px;
+  grid-template-rows: 300px;
+  text-align: center;
+  margin-bottom: 15px;
+
+  grid-template-areas:
+  "draw1  draw2";
+}
+
+.font {
+  font-family: 'Quicksand', sans-serif;
+  margin-bottom: 50px;
+}
