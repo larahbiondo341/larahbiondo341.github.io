@@ -120,7 +120,7 @@ a:visited {
 }
 
 a:active {
-  color: #F5B7B1;
+  font-style: italic;
 }
 
 nav li {
