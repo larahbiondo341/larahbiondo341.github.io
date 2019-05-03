@@ -119,6 +119,10 @@ a:visited {
   color: #6E2C00;
 }
 
+a:active {
+  color: #F5B7B1;
+}
+
 nav li {
 text-align: center;
 font-size: 50px;
